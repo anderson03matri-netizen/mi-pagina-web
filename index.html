@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de presentación personal de un estudiante de programación.">
+    <title>Mi Perfil Profesional | Presentación</title>
+    <!-- Nota: No incluimos CSS para cumplir con el requisito de "únicamente HTML5" -->
+</head>
+<body>
+
+    <!-- Encabezado principal: Identidad y Navegación -->
+    <header>
+        <h1>Perfil Profesional</h1>
+  
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        
+        <!-- Sección de Introducción -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <h3>Introducción</h3>
+                <p>Hola, soy Anderson Jair Malagon Triana estudiante universitario de la UMB sede Virtual en la facultad Ing de software. Mi enfoque actual es el aprendizaje de lenguajes como <strong>JAVA</strong> y futuramente <strong>SQL,HTML,C++ y PYTHON</strong>, además de la creación.</p>
+                
+                <!-- Imagen con atributo alt descriptivo para accesibilidad -->
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Retrato representativo del autor en un entorno de trabajo">
+                    <figcaption>Figura 1: Entorno de desarrollo.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!-- Sección de Habilidades (Uso de listas) -->
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Lógica de programación y estructuras de datos.</li>
+                <li>Gestión de bases de datos relacionales.</li>
+                <li>Desarrollo de sitios web semánticos.</li>
+                <li>Análisis de sistemas y hardware móvil.</li>
+            </ul>
+        </section>
+
+        <!-- Barra lateral para información secundaria -->
+        <aside>
+            <h2>Intereses Adicionales</h2>
+            <p>Fuera del estudio, disfruto de la lectura de mangas, aprender datos diversos, jugar videojuegos y el cuidado de mis mascotas.</p>
+        </aside>
+
+        <!-- Sección de Contacto con Formulario Accesible -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </p>
+                <button type="submit" aria-label="Enviar formulario de contacto">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 - Todos los derechos reservados.</p>
+        <p>Publicado en mi repositorio de GitHub.</p>
+    </footer>
+
+</body>
+</html>
